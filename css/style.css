@@ -1,0 +1,72 @@
+css
+/* Styling variables for clean theme containment */
+:root {
+    --primary-color: #1b365d; /* Executive Navy Blue */
+    --accent-color: #4a90e2;  /* Electric Slate Blue */
+    --bg-color: #f5f7fa;      /* Clean Off-White */
+    --text-color: #333333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid var(--accent-color);
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.skills-list li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    color: #777777;
+    margin-top: 40px;
+}
